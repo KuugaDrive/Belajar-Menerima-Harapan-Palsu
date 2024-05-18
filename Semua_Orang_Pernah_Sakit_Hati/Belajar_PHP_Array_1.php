@@ -40,15 +40,15 @@ $Taa=array("Ayah", "Mamak", "A.W", "Syukranda", "Yandi",);
 
 <!-- <br><br><br><br><br><br><br><br><?php echo "--------------------"?><br><br><br> -->
 <div class="clear"></div>
-  <?php foreach($Taa as $Tsy ){?>
+  <?php foreach($Taa as $Apotoxien ){?>
   <div class="APTX">
-    <?php echo $Tsy ?>
+    <?php echo $Apotoxien ?>
   </div><?php }?>
 
   <div class="clear"></div>
-<?php foreach($Taa as $Tsy):?>
+<?php foreach($Taa as $Apotoxien):?>
   <div class="APTX">
-    <?= $Tsy; ?>
+    <?= $Apotoxien; ?>
   </div><?php endforeach;?>
 
 
